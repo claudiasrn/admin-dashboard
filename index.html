@@ -9,243 +9,249 @@
     <title>Sprout</title>
 </head>
 <body>
-    <div class="side-bar">
-        <div class="logo-area">
-            <img class="logo" src="img/sprout-logo.svg" alt="Sprout logo">
-            <h1 class="app-name">Sprout</h1>
+    <div class="dashboard">
+        <div class="side-bar">
+            <div class="logo-area">
+                <img class="logo" src="img/sprout-logo.svg" alt="Sprout logo">
+                <h1 class="app-name">Sprout</h1>
+            </div>
+            <div class="primary-nav">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-home"></i>Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-plant"></i>My plants
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-calendar"></i>Schedule
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-notebook"></i>Care Log
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-compass"></i>Explore
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-bell"></i>Reminders
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="secondary-nav">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-settings"></i>Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-help-circle"></i>Help
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ti ti-user-circle"></i>Account
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="primary-nav">
-            <ul>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-home"></i>Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-plant"></i>My plants
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-calendar"></i>Schedule
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-notebook"></i>Care Log
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-compass"></i>Explore
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-bell"></i>Reminders
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="secondary-nav">
-            <ul>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-settings"></i>Settings
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-help-circle"></i>Help
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="ti ti-user-circle"></i>Account
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="top-bar">
-        <div class="search-bar">
-            <i class="ti ti-search"></i>
-            <input type="search">
-        </div>
-        <div class="nav-utilities">
-            <a href="#">
-                <i class="ti ti-bell-ringing"></i>
-            </a>
-            <a href="#">
+        <div class="top-bar">
+            <div class="search-bar">
+                <i class="ti ti-search"></i>
+                <input type="search" aria-label="search">
+            </div>
+            <div class="nav-utilities">
+                <a href="#">
+                    <i class="ti ti-bell-ringing"></i>
+                </a>
+                <a href="#">
+                    <img src="img/mayagreen.jpg" alt="mayagreen's profile picture">
+                </a>
+                <a href="#">
+                    <p>Maya Green</p>
+                </a>
+            </div>
+            <div class="user-greeting">
                 <img src="img/mayagreen.jpg" alt="mayagreen's profile picture">
-            </a>
-            <a href="#">
-                <p>Maya Green</p>
-            </a>
-        </div>
-        <div class="user-greeting">
-            <img src="img/mayagreen.jpg" alt="mayagreen's profile picture">
-            <p>Welcome back,</p>
-            <p>Maya Green (@mayagreen)</p>
-        </div>
-        <div class="actions">
-            <button>Add plant</button>
-            <button>Scan</button>
-            <button>Share</button>
-        </div>
-    </div>
-    <div class="content">
-        <div class="plant-grid">
-            <h2>Your plants</h2>
-            <div class="card">
-                <h3>Monstera</h3>
-                <p>Monstera deliciosa</p>
-                <p class="status">HEALTHY</p>
-                <div class="card-footer">
-                    <ul>
-                        <li>
-                            <i class="ti ti-droplet"></i>3d ago
-                        </li>
-                        <li>
-                            <i class="ti ti-sun"></i>Bright
-                        </li>
-                        <li>
-                            <i class="ti ti-heart"></i>Great
-                        </li>
-                    </ul>
-                </div>
+                <p class="greeting">Welcome back,</p>
+                <p class="user-name">Maya Green (@mayagreen)</p>
             </div>
-            <div class="card">
-                <h3>Photos</h3>
-                <p>Epipremnum aureum</p>
-                <p class="status">WATER SOON</p>
-                <div class="card-footer">
-                    <ul>
-                        <li>
-                            <i class="ti ti-droplet"></i>6d ago
-                        </li>
-                        <li>
-                            <i class="ti ti-sun"></i>Low
-                        </li>
-                        <li>
-                            <i class="ti ti-heart"></i>Good
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <h3>Fiddle Leaf Fig</h3>
-                <p>Ficus Iyrata</p>
-                <p class="status">NEEDS ATTENTION</p>
-                <div class="card-footer">
-                    <ul>
-                        <li>
-                            <i class="ti ti-droplet"></i>9d ago
-                        </li>
-                        <li>
-                            <i class="ti ti-sun"></i>Bright
-                        </li>
-                        <li>
-                            <i class="ti ti-heart"></i>Poor
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <h3>Peace Lily</h3>
-                <p>Spathiphyllum wallisii</p>
-                <p class="status">HEALTHY</p>
-                <div class="card-footer">
-                    <ul>
-                        <li>
-                            <i class="ti ti-droplet"></i>2d ago
-                        </li>
-                        <li>
-                            <i class="ti ti-sun"></i>Low
-                        </li>
-                        <li>
-                            <i class="ti ti-heart"></i>Good
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <h3>ZZ Plant</h3>
-                <p>Zamioculcas zamiifolia</p>
-                <p class="status">WATER SOON</p>
-                <div class="card-footer">
-                    <ul>
-                        <li>
-                            <i class="ti ti-droplet"></i>5d ago
-                        </li>
-                        <li>
-                            <i class="ti ti-sun"></i>Any
-                        </li>
-                        <li>
-                            <i class="ti ti-heart"></i>Great
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <h3>Snake Plant</h3>
-                <p>Sansevieria trifasciata</p>
-                <p class="status">JUST ADDED</p>
-                <div class="card-footer">
-                    <ul>
-                        <li>
-                            <i class="ti ti-droplet"></i>ー
-                        </li>
-                        <li>
-                            <i class="ti ti-sun"></i>Any
-                        </li>
-                        <li>
-                            <i class="ti ti-heart"></i>ー
-                        </li>
-                    </ul>
-                </div>
+            <div class="actions">
+                <button>Add plant</button>
+                <button>Scan</button>
+                <button>Share</button>
             </div>
         </div>
-        <div class="care-alerts">
-            <h2>Care Alerts</h2>
-            <div class="alert-item">
-                <h3>Fiddle Leaf Fig</h3>
-                <p>No water in 9 days ー leaves may drop soon</p>
-                <p class="tag">URGENT</p>
+        <div class="content">
+            <div class="plant-grid">
+                <h2>Your plants</h2>
+                <div class="card">
+                    <h3>Monstera</h3>
+                    <p>Monstera deliciosa</p>
+                    <p class="status">HEALTHY</p>
+                    <div class="card-footer">
+                        <ul>
+                            <li>
+                                <i class="ti ti-droplet blue"></i>3d ago
+                            </li>
+                            <li>
+                                <i class="ti ti-sun"></i>Bright
+                            </li>
+                            <li>
+                                <i class="ti ti-heart healthy"></i>Great
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Photos</h3>
+                    <p>Epipremnum aureum</p>
+                    <p class="status water">WATER SOON</p>
+                    <div class="card-footer">
+                        <ul>
+                            <li>
+                                <i class="ti ti-droplet water"></i>6d ago
+                            </li>
+                            <li>
+                                <i class="ti ti-sun"></i>Low
+                            </li>
+                            <li>
+                                <i class="ti ti-heart healthy"></i>Good
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Fiddle Leaf Fig</h3>
+                    <p>Ficus Iyrata</p>
+                    <p class="status attention">NEEDS ATTENTION</p>
+                    <div class="card-footer">
+                        <ul>
+                            <li>
+                                <i class="ti ti-droplet attention"></i>9d ago
+                            </li>
+                            <li>
+                                <i class="ti ti-sun"></i>Bright
+                            </li>
+                            <li>
+                                <i class="ti ti-heart attention"></i>Poor
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Peace Lily</h3>
+                    <p>Spathiphyllum wallisii</p>
+                    <p class="status">HEALTHY</p>
+                    <div class="card-footer">
+                        <ul>
+                            <li>
+                                <i class="ti ti-droplet blue"></i>2d ago
+                            </li>
+                            <li>
+                                <i class="ti ti-sun"></i>Low
+                            </li>
+                            <li>
+                                <i class="ti ti-heart healthy"></i>Good
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>ZZ Plant</h3>
+                    <p>Zamioculcas zamiifolia</p>
+                    <p class="status water">WATER SOON</p>
+                    <div class="card-footer">
+                        <ul>
+                            <li>
+                                <i class="ti ti-droplet water"></i>5d ago
+                            </li>
+                            <li>
+                                <i class="ti ti-sun"></i>Any
+                            </li>
+                            <li>
+                                <i class="ti ti-heart healthy"></i>Great
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Snake Plant</h3>
+                    <p>Sansevieria trifasciata</p>
+                    <p class="status new">JUST ADDED</p>
+                    <div class="card-footer">
+                        <ul>
+                            <li>
+                                <i class="ti ti-droplet new"></i>ー
+                            </li>
+                            <li>
+                                <i class="ti ti-sun"></i>Any
+                            </li>
+                            <li>
+                                <i class="ti ti-heart new"></i>ー
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="alert-item">
-                <h3>Photos</h3>
-                <p>Overdue by 1 day ー soil is likely dry</p>
-                <p class="tag">WATER</p>
+            <div class="care-alerts">
+                <h2>Care Alerts</h2>
+                <div class="alert-items">
+                    <div class="alert-item">
+                        <h3>Fiddle Leaf Fig</h3>
+                        <p class="tag attention">URGENT</p>
+                        <p>No water in 9 days ー leaves may drop soon</p>
+                    </div>
+                    <div class="alert-item">
+                        <h3>Photos</h3>
+                        <p class="tag water">WATER</p>
+                        <p>Overdue by 1 day ー soil is likely dry</p>
+                    </div>
+                    <div class="alert-item">
+                        <h3>Monstera</h3>
+                        <p class="tag repot">REPOT</p>
+                        <p>Roots showing ー time for a bigger pot</p>
+                    </div>
+                </div>
             </div>
-            <div class="alert-item">
-                <h3>Monstera</h3>
-                <p>Roots showing ー time for a bigger pot</p>
-                <p class="tag">REPOT</p>
-            </div>
-        </div>
-        <div class="community-section">
-            <h2>Community</h2>
-            <div class="community-item">
-                <img src="img/mayagreen.jpg" alt="mayagreen's profile picture">
-                <h3>@mayagreen</h3>
-                <p>Just added a Snake Plant</p>
-            </div>
-            <div class="community-item">
-                <img src="img/leafysam.jpg" alt="leafysam's profile picture">
-                <h3>@leafysam</h3>
-                <p>Shared a care tip for Photos</p>
-            </div>
-            <div class="community-item">
-                <img src="img/plantkween.jpg" alt="plantkween's profile picture">
-                <h3>@plantkween</h3>
-                <p>Just added a Bird of Paradise</p>
-            </div>
-            <div class="community-item">
-                <img src="img/growinggreen.jpg" alt="growinggreen's profile picture">
-                <h3>@growinggreen</h3>
-                <p>Repotted their Fiddle Leaf Fig</p>
+            <div class="community-section">
+                <h2>Community</h2>
+                <div class="community-items">
+                    <div class="community-item">
+                        <img src="img/mayagreen.jpg" alt="mayagreen's profile picture">
+                        <h3>@mayagreen</h3>
+                        <p>Just added a Snake Plant</p>
+                    </div>
+                    <div class="community-item">
+                        <img src="img/leafysam.jpg" alt="leafysam's profile picture">
+                        <h3>@leafysam</h3>
+                        <p>Shared a care tip for Photos</p>
+                    </div>
+                    <div class="community-item">
+                        <img src="img/plantkween.jpg" alt="plantkween's profile picture">
+                        <h3>@plantkween</h3>
+                        <p>Just added a Bird of Paradise</p>
+                    </div>
+                    <div class="community-item">
+                        <img src="img/growinggreen.jpg" alt="growinggreen's profile picture">
+                        <h3>@growinggreen</h3>
+                        <p>Repotted their Fiddle Leaf Fig</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

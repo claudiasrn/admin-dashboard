@@ -1,10 +1,10 @@
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Outer circle -->
-  <circle cx="24" cy="24" r="23" stroke="#0F1B2D" stroke-width="1.5"/>
+  <circle cx="24" cy="24" r="23" stroke="#F7F4EF" stroke-width="1.5"/>
   <!-- Stem -->
-  <path d="M24 34 C24 34 24 22 24 18" stroke="#0F1B2D" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M24 34 C24 34 24 22 24 18" stroke="#F7F4EF" stroke-width="1.5" stroke-linecap="round"/>
   <!-- Left branch -->
-  <path d="M24 22 C24 22 19 19 17 15" stroke="#0F1B2D" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M24 22 C24 22 19 19 17 15" stroke="#F7F4EF" stroke-width="1.5" stroke-linecap="round"/>
   <!-- Right branch (terracotta) -->
   <path d="M24 26 C24 26 29 23 31 19" stroke="#B85C38" stroke-width="1.5" stroke-linecap="round"/>
   <!-- Left leaf (sage) -->
@@ -12,5 +12,5 @@
   <!-- Right bud (terracotta) -->
   <circle cx="31" cy="19" r="2.5" fill="#B85C38"/>
   <!-- Top bud (midnight) -->
-  <circle cx="24" cy="18" r="2.5" fill="#0F1B2D"/>
+  <circle cx="24" cy="18" r="2.5" fill="#F7F4EF"/>
 </svg>
